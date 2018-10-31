@@ -334,6 +334,11 @@ h4 {
   width: 20%;
   margin-left: 5%;
   margin-top: 17%;
+  animation-name: birdAnimation;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+  animation-fill-mode: backwards;
+  animation-timing-function: ease-in-out;
 }
 
 
