@@ -492,7 +492,7 @@ h6 {
 }
 
 #leftInfo p {
-  font-size: 1vw;
+  /*font-size: 1vw;*/
 }
 
 #future_h3 {
@@ -511,12 +511,12 @@ h6 {
   margin-left: 64%;
   text-align: left;
   float: left;
-  margin-top: -12%;
+  margin-top: -16%;
   position: absolute;
 }
 
 #rightInfo p {
-  font-size: 1vw;
+  /*font-size: 1vw;*/
 }
 
 #button2 {
