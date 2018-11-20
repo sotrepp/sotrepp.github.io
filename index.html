@@ -1,162 +1,53 @@
-<!DOCTYPE html>
-  <html>
-    <head>
-      <meta charset="utf-8"/>
-      <title> iCarbon </title>
-      <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700" rel="stylesheet">
-      <link href="styles.css" rel="stylesheet" type="text/css">
-    </head>
-    <body>
+<!doctype html>
 
-      <nav>
-        <ul>
-          <li><a href="#section1" id="1">Home</a></li>
-          <li><a href="#section2" id="2">The Past</a></li>
-          <li><a href="#section3" id="3">The Present</a></li>
-          <li><a href="#section4" id="4">The Future</a></li>
-        </ul>
-      </nav>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Sofia Trepp</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=GFS+Didot" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400" rel="stylesheet">
+</head>
 
-      <div id="section1">
+<body>
+    <div id="container">
+      <div id="home">
+        <img id="overlay1" src="media/overlay.png">
+        <img id="logo1" src="media/logo.png">
+        <button id="button1"> WHO AM I?</button>
+      </div>
 
-        <!-- FIRST PAGE -->
-       <div id="content1" class="project">
-           <div id="texture"></div>
-            <img id="peopleHill" src="img/home/hill_people.png"/>
-            <img id="leftHill" src="img/home/hill_left.png"/>
+      <div id="projects">
+        <img id="overlay2" src="media/overlay_green.png">
+        <img id="logo2" src="media/logo.png">
+        <h1 id="projects_h1"> PROJECTS </h1>
+        <img id="still" src="media/still_design.png">
+        <img id="motion" src="media/motion_design.png">
+      </div>
 
-            <div id="blackCorner"></div>
+      <div id="about">
+        <img id="overlay1" src="media/overlay.png">
+        <img id="sofia" src="media/sofia.png">
+        <img id="logo3" src="media/logo.png">
+        <div id="info">
+          My name is Sofia Trepp, and I am a 24-year old born and raised in
+          Stockholm, Sweden. Almost three years ago, I left for New York City where
+          I am currently earning my B.S. in Digital Communications and Media at New York
+          University. I am hoping to someday pursue a career in Digital Media which is why
+          I have prepared this page where I have gathered some of my best work for you.</div>
 
-            <h1> iCarbon </h1>
-            <h2> The Carbon Footprint tracker that will shape your future </h2>
-
-
-            <a href="#" id="button">Get Notified</a>
-
-            <img src="img/home/bird1.png" id="bird1"/>
-            <img src="img/home/bird2.png" id="bird2"/>
-            <img src="img/home/bird3.png" id="bird3"/>
-            <img src="img/home/bird4.png" id="bird4"/>
         </div>
+
+      <div id="contact">
+        <img id="overlay2_contact" src="media/overlay_green.png">
+        <h1 id="contact_h1"> CONTACT </h1>
+        <img id="contact_img" src="media/contact.png">
       </div>
 
 
-      <div id="section2">
-        <div id="contentThePast" class="project">
-
-           <div id="bgLayer2"></div>
-           <div id="texture"></div>
-
-           <img src="img/past/trees_lower_left.png" id="treesLeft"/>
-           <img src="img/past/trees_right.png" id="treesRight"/>
-           <img src="img/past/ground.png" id="ground"/>
-           <img src="img/past/eagle.png" id="eagle"/>
-
-            <div id="blackCorner"></div>
-
-            <div id="thePastText">
-              <h3> The Past </h3>
-              <h4> 2 million years ago, the earth was unspoiled  </h4>
-              <p id="textWidth">
-                Trees grew, animals roamed freely.
-                There was no pollution,  global warming or deforestation.
-                The sky was clean and so were the oceans.
-                <br>It's a place that once existed, it's a place we should be inspired by.
-              </p>
-            </div>
-      </div>
-      </div>
+    </div>
 
 
-      <div id="section3">
-        <div id="contentThePresent">
-           <div id="bgLayer3"></div>
-           <div id="texture"></div>
-           <div id="white_overlay"></div>
-
-           <img src="img/present/man.png" id="man"/>
-
-            <div id="thePresentText">
-              <h5> The Present </h5>
-              <h6> Technology defines our world today  </h6>
-              <p id="textPresent">
-
-                Technology may contribute to a comfortable life,
-                however what we see is just the tip of the iceberg:
-                Irresponsible use of modern technology contribute to
-                global warming, pushing humanity to the brink of environmental
-                destruction. <br>This needs to change: together we must step up and
-                 note that even the smallest achievement counts towards progress.
-
-
-              </p>
-            </div>
-          </div>
-      </div>
-
-
-      <div id="section4">
-        <div id="contentTheFuture">
-           <div id="texture"></div>
-
-
-              <div id="future_h2"> INTRODUCING </div>
-              <div id="future_h1"> iCARBON </div>
-
-              <video id="videoFuture">
-                  <source src="video/mockup.mp4" type="video/mp4">
-                  Your browser isn't invited for super fun video time.
-                </video>
-
-                <a href="#" id="button2">Get Notified</a>
-
-                <div id="leftInfo">
-                  <div id="future_h3">
-                    iCarbon - The app that will shape your future by assisting you to
-                    make more sustainable choices throughout the day
-                  </div>
-
-                  <p>
-                    <br><b>iCarbon tracks:</b><br><br>
-                    Utilities - connect iCarbon to your home devices and watch it suggest
-                    changes for your home's temperature, electricity + water usage and more.
-
-                    <br><br>Transport by car - By using the location services of your
-                    phone the app can determine when you are using public transport vs.
-                    when you are traveling by car.
-
-
-                  </p>
-                </div>
-
-                <div id="rightInfo">
-                  <p>
-                    &#9758; &nbsp;&nbsp;&nbsp; Collect badges, stickers and text message
-                    animations by completing challenges such as "Bike to work ten times!"<br><br>
-
-                    &#9758; &nbsp;&nbsp;&nbsp; Daily limited challenges will appear: complete them for special rewards! <br><br>
-
-                    &#9758; &nbsp;&nbsp;&nbsp; Share your progress and compete with friends. Whoever has the lowest impact on the environment wins.
-
-                  </p>
-                </div>
-
-          </div>
-      </div>
-
-
-      <audio id="natureSound">
-        <source src="sounds/nature.mp3"></source>
-        Your browser isn't invited for super fun audio time.
-      </audio>
-      <audio id="citySound">
-        <source src="sounds/city.mp3"></source>
-        Your browser isn't invited for super fun audio time.
-      </audio>
-
-      <script src="jquery-3.1.21.min.js"></script>
-      <script src="scrollmagic/scrollmagic/minified/ScrollMagic.min.js"></script>
-      <script src="scrollmagic/scrollmagic/uncompressed/plugins/debug.addIndicators.js"></script>
-      <script src="scripts.js"></script>
-    </body>
-  </html>
+  <script src="js/scripts.js"></script>
+</body>
+</html>
