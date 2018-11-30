@@ -305,3 +305,13 @@
   color: #0d342b;
   opacity: 0.6;
 }
+
+#reel {
+  text-align: center;
+  margin-bottom: 2%;
+  margin-top: -2%;
+  font-family: 'GFS Didot', serif;
+  font-weight: lighter;
+  color: #0d342b;
+  letter-spacing: 2px;
+}
