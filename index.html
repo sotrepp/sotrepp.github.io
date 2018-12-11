@@ -7,22 +7,69 @@
   <link rel="stylesheet" href="css/styles.css">
   <link href="https://fonts.googleapis.com/css?family=GFS+Didot" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400" rel="stylesheet">
+  <link rel="icon" type="image/png" href="media/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="media/favicon-16x16.png" sizes="16x16" />
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 
 <body>
     <div id="container">
+
+      <nav id="navigation">
+           <ul>
+               <li>
+                   <a href="#home" data-number="1">
+                       <span class="dot"></span>
+                       <span class="label">Home</span>
+                   </a>
+               </li>
+               <li>
+                   <a href="#projects" data-number="2">
+                       <span class="dot"></span>
+                       <span class="label">Projects</span>
+                   </a>
+               </li>
+               <li>
+                   <a href="#about" data-number="3">
+                       <span class="dot"></span>
+                       <span class="label"> About</span>
+                   </a>
+               </li>
+               <li>
+                   <a href="#contact" data-number="4">
+                       <span class="dot"></span>
+                       <span class="label">Contact</span>
+                   </a>
+               </li>
+           </ul>
+       </nav>
+       <a class="nav_trig">Open navigation<span></span></a>
+
+       <div id="leftNav">
+         <img src="media/music.png" id="musicButton">
+         <p id="digitalPortfolio"> A DIGITAL PORTFOLIO</p>
+       </div>
+
+
       <div id="home">
         <img id="overlay1" src="media/overlay.png">
         <img id="logo1" src="media/logo.png">
-        <button id="button1"> WHO AM I?</button>
+        <a id="buttonlink" href="#about"> <button id="button1"> WHO AM I?</button> </a>
       </div>
 
       <div id="projects">
         <img id="overlay2" src="media/overlay_green.png">
         <img id="logo2" src="media/logo.png">
         <h1 id="projects_h1"> PROJECTS </h1>
-        <a href="still.html"> <img id="still" src="media/still_design.png"></a>
-        <a href="motion.html"><img id="motion" src="media/motion_design.png"></a>
+
+        <a href="still.html" id="link">
+          <img id="still" src="media/graphic_design.png">
+        </a>
+
+        <a href="motion.html" id="link">
+          <img id="motion" src="media/motion_design.png">
+        </a>
       </div>
 
       <div id="about">
@@ -35,18 +82,36 @@
           I am currently earning my B.S. in Digital Communications and Media at New York
           University. I am hoping to someday pursue a career in Digital Media which is why
           I have prepared this page where I have gathered some of my best work for you.</div>
-
         </div>
+
 
       <div id="contact">
         <img id="overlay2_contact" src="media/overlay_green.png">
+        <img id="logo4" src="media/logo.png">
         <h1 id="contact_h1"> CONTACT </h1>
-        <img id="contact_img" src="media/contact.png">
+
+        <form id="form" class="topBefore">
+
+          <input id="name" type="text" placeholder="NAME">
+          <input id="email" type="text" placeholder="E-MAIL">
+          <textarea id="message" type="text" placeholder="MESSAGE"></textarea>
+          <input id="submit" type="submit" value="SEND">
+        </form>
+
       </div>
 
 
     </div>
 
+    <audio autoplay id="bgmusic">
+      <source src="media/music.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+
+    <audio id="hoverSound">
+      <source src="media/hover1.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
 
   <script src="js/scripts.js"></script>
 </body>
