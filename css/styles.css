@@ -781,10 +781,10 @@ textarea:hover {
 }
 
 #still1 {
-  /*background-color: red;*/
+  height: 85vh;
 }
 #still2 {
-  /*background-color: green;*/
+  height: 80vh;
 }
 #still3 {
   /*background-color: blue;*/
