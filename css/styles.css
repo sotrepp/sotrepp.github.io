@@ -403,7 +403,7 @@ textarea:hover {
   border-style: solid;
   position: fixed;
   z-index: 999;
-  margin-top: 35%;
+  margin-top: 29%;
   margin-left: -140px;
   color: rgba(125, 125,125, 0.5);
   transform: rotateZ(90deg);
