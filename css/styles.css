@@ -492,14 +492,14 @@ textarea:hover {
 }
 
 #about {
-  background-image: url("../media/bg_dark2.png");
+  background-image: url("../media/bg_dark.png");
   background-repeat: no-repeat;
   background-size: 100%;
   margin-bottom: 0;
   height: 100%;
   z-index: -20;
   background-color: black;
-	filter: brightness(210%);
+	/*filter: brightness(210%);*/
 }
 
 #contact {
@@ -603,7 +603,7 @@ textarea:hover {
   width: 40%;
   position: absolute;
   text-align: center;
-  margin-top: -30%;
+  margin-top: -33%;
   color: rgba(255, 255, 255, 0.8);
   font-size: 0.8em;
   font-family: 'Lato', sans-serif;
