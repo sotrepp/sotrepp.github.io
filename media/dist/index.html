@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>iCarbon</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimal-ui" />
+    <link type="text/css" rel="stylesheet" href="styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400" rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="menu">
+            <a href="#layer1" class="menu__item">HOME</a>
+
+            <a href="#layer3_1" class="menu__item">THE PAST</a>
+
+            <a href="#layer5" class="menu__item">THE PRESENT</a>
+
+            <a href="#layer8_1" class="menu__item">THE FUTURE</a>
+        </nav>
+    </header>
+
+
+    <div class="wrapper">
+        <div class="environment">
+            <div class="scene">
+
+
+                <!-- PAGE 1 - HOME -->
+
+                <div id="layer1" class="layer" data-depth="0">
+                  <img class="overlay" src="images/home/overlay.png"/>
+                    <section id="layer1__textContainer">
+                        <h2 id="layer1__textContainer--h2"> MEET</h2>
+                        <h1 id="layer1__textContainer--h1">iCarbon</h1>
+                        <p id="layer1__textContainer--p">
+                          The app that tracks your carbon footprint as you go about your day.
+                          Creating a greener planet, one footprint at a time.
+                        </p>
+                        <button id="layer1__textContainer--button1"> GET NOTIFIED</button>
+                    </section>
+                    <img class="mockup" src="images/home/mockup.png"/>
+                    <img class="page1_bg" src="images/home/bg.png"/>
+                </div>
+
+
+
+                <!-- PAGE 2 - PAST -->
+
+                <!-- First layer = Eagle -->
+                <div id="layer2" class="layer" data-depth="600">
+                    <img src="images/past/eagle.png"/>
+                </div>
+
+                <!-- navigation will link to this empty layer to ensure that the whole page is visible
+                when link is clicked -->
+                <div id="layer3_1" class="layer" data-depth="800">
+                </div>
+
+                <!-- Second layer = Text + trees -->
+                <div id="layer3" class="layer" data-depth="1000">
+                    <h1 id="layer3__h1">THE PAST</h1>
+                    <h2 id="layer3__h2"> 2 million years ago, the earth was in a good shape.</h2>
+                    <p id="layer3__p">
+                      Trees were growing, animals roamed freely.
+                      There was no pollution, global warming or deforestation. The sky was
+                      clean and so were the oceans.
+                    </p>
+                    <img id="layer3__img" src="images/past/trees.png"/>
+                </div>
+
+
+                <!-- Third layer = Background -->
+                <div id="layer4" class="layer" data-depth="1300">
+                    <img src="images/past/background_layer_1.png"/>
+                </div>
+
+
+
+                <!-- PAGE 3 - PRESENT -->
+
+                <!-- First layer = Picture of man -->
+                <div id="layer5" class="layer" data-depth="2000">
+                    <img src="images/present/man.png"/>
+                </div>
+
+                <!-- Second layer = Text -->
+                <div id="layer6" class="layer" data-depth="2500">
+                  <section id="layer6__textContainer">
+                    <h1 id="layer6__h1">THE PRESENT</h1>
+                    <h2 id="layer6__h2"> Technology defines our world today. </h2>
+                    <p id="layer6__p">
+                      Technology may contribute to a comfortable life, however what we see is just the tip of the iceberg: Irresponsible use of modern technology contribute to global warming, pushing humanity to the bring of environmental destruction.
+                      We need to step up!
+                    </p>
+                  </section>
+                </div>
+
+                <!-- Third layer = Background and Overlay -->
+                <div id="layer7" class="layer" data-depth="2800">
+                    <img id="layer7__white_overlay" src="images/present/white_overlay.png"/>
+                    <img id="layer7__bg" src="images/present/bg.png"/>
+                </div>
+
+
+                <!-- PAGE 4 - FUTURE -->
+
+                <div id="layer8" class="layer" data-depth="3400">
+                      <img id="layer8__overlay" src="images/future/gradient.png"/>
+                      <h1 id="layer8__h1">THE FUTURE</h1>
+
+                      <video>
+                          <source src="video/mockup.mp4" type="video/mp4">
+                          Your browser does not support super fun video time.
+                      </video>
+
+                      <section id="layer8__leftInfo">
+                        <h3 id="layer8__leftInfo--h3">The app that will shape your future by assisting you to make more sustainable choices throughout the day</h3>
+                        <p id="layer8__leftInfo--p">
+                          To fix our planet, all of us need to contribute,
+                          even the smallest change can help affect change. iCarbon
+                          tracks your carbon footprint and motivates you to
+                          reach better numbers than you did the day before.
+                        </p>
+                          <br><br><br>
+                      </section>
+
+                      <section id="layer8__rightInfo">
+                          <ul id="layer8__rightInfo--ul">
+
+                          <li id="layer8__rightInfo--ul__li">Miles driven in car</li>
+
+                          <p>
+                            <br>Enable location services and iCarbon can distinguish whether you are
+                            travelling by car or if you are using sustainable means of travelling
+                            (bike, subway).
+                          </p><br>
+
+                          <li id="layer8__rightInfo--ul__li">
+                            Utilities (connect iCarbon to your home device)
+                          </li>
+
+                          <p>
+                            <br>Connect iCarbon to your home device and track electricity and water usage!
+                          </p>
+                        </ul>
+                      </section>
+                      <button id="layer8__button2"> NOTIFY ME </button>
+                </div>
+
+                <!-- Empty layer to use in navigation -->
+                <div id="layer8_1" class="layer" data-depth="3500"></div>
+
+            <!-- End of scene -->
+            </div>
+        </div>
+    </div>
+
+
+    <audio autoplay>
+      <source src="sounds/nature.mp3" type="audio/mp3">
+    Your browser does not support super fun audio time.
+    </audio>
+
+    <div class="scene__depth"></div>
+    <script src="scripts/main-min.js"></script>
+</body>
+</html>
