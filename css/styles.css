@@ -467,7 +467,7 @@ textarea:hover {
   background-image: url("../media/bg_dark2.png");
   background-size: 100%;
   margin-bottom: 0;
-	filter: brightness(200%);
+	filter: brightness(210%);
 }
 
 
@@ -508,6 +508,7 @@ textarea:hover {
   background-repeat: no-repeat;
   background-color: white;
   overflow-y: hidden;
+	filter: brightness(210%);
 }
 
 
