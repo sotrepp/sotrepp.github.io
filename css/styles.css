@@ -479,7 +479,6 @@ textarea:hover {
 #overlay2 {
   width: 100%;
   mix-blend-mode: overlay;
-  z-index: -100;
 }
 
 #projects {
@@ -516,14 +515,14 @@ textarea:hover {
   width: 36%;
   z-index: 100;
   margin-top: -37%;
-  margin-left: 28%;
+  margin-left: 32%;
 }
 #logo2 {
   position: absolute;
   width: 10%;
   z-index: 100;
-  margin-top: -55%;
-  margin-left: 41%;
+	margin-top: 1.5%;
+  margin-left: 44%;
   filter: brightness(10%);
 }
 
@@ -540,19 +539,20 @@ textarea:hover {
   z-index: 150;
   filter: brightness(10%);
   margin-left: 44%;
-  margin-top: 3%;
+  margin-top: 1.5%;
 }
 
 #button1 {
   position: absolute;
+	width: 15%;
   margin-top: -28%;
-  margin-left: 41%;
+  margin-left: 42%;
   background-color: rgba(34, 139, 34, 0.1);
   border-style: solid;
   border-color: rgba(255, 255, 255, 0.1);
   border-radius: 1px;
   color: white;
-  padding: 15px 40px;
+  padding: 1% 1%;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -566,25 +566,28 @@ textarea:hover {
 }
 
 #projects_h1 {
-  margin-top: -51%;
-  margin-left: 35%;
+	margin-top: 5%;
+	width:100%;
   font-size: 3em;
   letter-spacing: 13px;
   font-family: 'GFS Didot', serif;
   font-weight: lighter;
   color: #3A6629;
+	text-align: center;
 }
 
 #motion {
-  width: 18.7%;
+  width: 22%;
+	mix-blend-mode: multiply;
 }
 
 #still {
   width: 22%;
-  margin-left: 24%;
-  margin-right: 8%;
-  margin-top: 3%;
   position: static;
+	margin-top: 7%;
+	margin-left: 24%;
+	margin-right: 6%;
+	mix-blend-mode: multiply;
 }
 
 #sofia {
@@ -599,8 +602,8 @@ textarea:hover {
   position: absolute;
   text-align: center;
   margin-top: -30%;
-  color: white;
-  font-size: 0.7em;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.8em;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   margin-left: 44%;
@@ -795,6 +798,8 @@ textarea:hover {
   height: 80vh;
 }
 
+
+
 .work_container {
   width: 85%;
   /*background-color: pink;*/
@@ -810,6 +815,7 @@ textarea:hover {
 }
 
 .work_h1 {
+	width: 100%;
   font-size: 3em;
   letter-spacing: 13px;
   font-family: 'GFS Didot', serif;
@@ -834,9 +840,12 @@ textarea:hover {
 
 #rect {
   width: 40%;
+	margin-left: -71%;
+	margin-top: 8%;
   margin-bottom: 2%;
-  position: absolute;
-  margin-left: 2%;
+	display: inline;
+	position: absolute;
+
 }
 
 #rect2 {
@@ -849,12 +858,13 @@ textarea:hover {
   width: 56%;
   margin-bottom: 2%;
   margin-left: 20.5%;
-  margin-top: 6%;
+  margin-top: 0%;
   position: absolute;
 }
 
 .desc {
   text-align: center;
+	width: 100%;
   margin-top: 2%;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
@@ -903,4 +913,36 @@ textarea:hover {
 
 #link {
   z-index: 999;
+}
+
+
+
+/* motion page */
+#video2 {
+	height: 110vh;
+}
+
+#reel {
+	margin-top: 1.5%;
+	margin-left: 19%;
+}
+
+#video_small {
+	margin-top: 1.5%;
+	margin-left: 8.5%;
+	margin-right: 3%;
+}
+
+#video_small2 {
+	margin-top: 1.5%;
+}
+
+#video_small3 {
+	margin-top: 5%;
+	margin-right: 3%;
+	margin-left: 8.5%;
+}
+
+#video_small4 {
+	margin-top: 5%;
 }

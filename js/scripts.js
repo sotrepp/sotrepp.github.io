@@ -76,4 +76,9 @@ $(document).ready(function(){
       });
 
 
+      $('#still').click(function (event) {
+      console.log("HELLO");
+      });
+
+
 });

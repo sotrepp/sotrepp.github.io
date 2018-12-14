@@ -18,11 +18,47 @@
   <body>
     <div id="containerProjects">
 
+      <nav id="navigation">
+           <ul>
+               <li>
+                   <a href="index.html" data-number="1">
+                       <span class="dot"></span>
+                       <span class="label">Home</span>
+                   </a>
+               </li>
+               <li>
+                   <a href="index.html#projects" data-number="2">
+                       <span class="dot"></span>
+                       <span class="label">Projects</span>
+                   </a>
+               </li>
+               <li>
+                   <a href="index.html#about" data-number="3">
+                       <span class="dot"></span>
+                       <span class="label"> About</span>
+                   </a>
+               </li>
+               <li>
+                   <a href="index.html#contact" data-number="4">
+                       <span class="dot"></span>
+                       <span class="label">Contact</span>
+                   </a>
+               </li>
+           </ul>
+       </nav>
+       <a class="nav_trig">Open navigation<span></span></a>
+
+       <div id="leftNav">
+         <img src="media/music.png" id="musicButton">
+         <p id="digitalPortfolio"> A DIGITAL PORTFOLIO</p>
+       </div>
+
       <div class="project" id="still1">
         <div class="work_container">
           <h1 class="work_h1"> REEL </h1>
+          <p class="desc" style="margin-bottom:-2%;"> For videos mentioned, visit my <a href="https://vimeo.com/trepp" style="color: green;"> Vimeo </a> </p>
           <div class="flex_container">
-              <video width="60%" height="40%" controls>
+              <video id="reel" width="60%" height="40%" poster="media/motion/reel_placeholder.png" controls>
                 <source src="media/motion/reel.mp4" type="video/mp4">
                 Your browser does not support the video tag.
               </video>
@@ -31,31 +67,32 @@
 
       </div>
 
-      <div class="project" id="still2">
+      <div class="project" id="video2">
         <div class="work_container">
-          <h1 class="work_h1"> PHOTO COMPOSITION </h1>
-          <p class="desc"> Art Direction and Design </p>
+          <h1 class="work_h1"> FULL VIDEOS </h1>
+          <p class="desc"> </p>
           <div class="flex_container">
-            <img id="square" src="media/still/color.png">
-          </div>
-        </div>
-      </div>
 
-      <div class="project" id="still4">
-        <div class="work_container">
-          <h1 class="work_h1"> NYU BRANDING </h1>
-          <div class="flex_container">
-            <img id="rect3" src="media/still/nyu.jpg">
-          </div>
-        </div>
-      </div>
+            <video id="video_small" width="40%" height="30%" poster="media/motion/placeholder.png" controls>
+              <source src="media/motion/wizard.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
 
-      <div class="project" id="still3">
-        <div class="work_container">
-          <h1 class="work_h1"> SELF-BRANDING </h1>
-          <p class="desc"> Art Direction and Design </p>
-          <div class="flex_container" id="branding">
-            <img id="rect2" src="media/still/branding1.png" style="margin-top:-1%; margin-left:1%">
+            <video id="video_small2" width="40%" height="30%" poster="media/motion/placeholder_count.png" controls>
+              <source src="media/motion/trepp_countdown.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+
+            <video id="video_small3" width="40%" height="30%" poster="media/motion/placeholder_tarantino.png" controls>
+              <source src="media/motion/tarantino.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+
+            <video id="video_small4" width="40%" height="30%" poster="media/motion/placeholder_chroma.png" controls>
+              <source src="media/motion/trepp_chroma_final.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+
           </div>
         </div>
       </div>
