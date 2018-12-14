@@ -467,6 +467,7 @@ textarea:hover {
   background-image: url("../media/bg_dark2.png");
   background-size: 100%;
   margin-bottom: 0;
+	filter: brightness(300%);
 }
 
 
