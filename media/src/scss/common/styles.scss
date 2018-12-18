@@ -180,7 +180,8 @@ body {
   position: absolute;
   width: 30%;
   margin-left: 17%;
-  margin-top: 14%;
+  margin-right: 53%;
+  margin-top: 5%;
   z-index: 1000;
 }
 
@@ -205,43 +206,38 @@ body {
     padding-bottom: 270px;
     margin-left: 40%;
     margin-top: -3%;
-    width: 60%;
+    text-align: right;
     &--h2 {
       font-family: lato;
       font-size: 2.5em;
       color: black;
       font-weight: 300;
-      width: 60%;
       margin-bottom: 0px;
       margin-left: 49%;
-      text-align: right;
       z-index: 10;
     }
     &--h1 {
-      font-size: 8em;
+      font-size: 8vw;
       font-family: ailerons;
       font-weight: lighter;
       letter-spacing: 6px;
       color: black;
       text-align: right;
       z-index: 10;
-      margin-left: -10%;
     }
     &--p {
       font-family: lato;
       font-weight: 300;
       font-size: 1.5em;
       color: black;
-      text-align: right;
       z-index: 10;
-      margin-right: -8%;
     }
     &--button1 {
       background-color: rgba(25, 77, 51,0.2);
       color: $dark-green;
       width: 38%;
       padding: 12px;
-      margin-left: 68%;
+      /*margin-left: 69%;*/
       margin-top: 3%;
       font-size: 1.2em;
       font-family: ailerons;
@@ -291,7 +287,7 @@ body {
   &__p {
     font-family: lato;
     font-weight: 300;
-    font-size: 2em;
+    font-size: 1.4em;
     color: black;
     margin-left: -4%;
     width: 60%;
@@ -307,30 +303,27 @@ body {
 
 #layer5 img {
   width: 30%;
-  margin-top: 30%;
+  margin-top: 24%;
   margin-left: 15%;
+  position: fixed;
 }
 
 #layer6 {
   &__textContainer {
     position: absolute;
     z-index: 10;
-    padding-left: 120px;
-    padding-right: 120px;
-    padding-top: 250px;
-    padding-bottom: 270px;
-    margin-left: 30%;
-    margin-top: -3%;
-    width: 130%;
+    text-align: right;
+    width: 65%;
+    margin-left: 55%;
+    margin-top: 15%;
   }
   &__h1 {
-    font-size: 8em;
+    font-size: 8.5vw;
     font-family: ailerons;
     font-weight: lighter;
     letter-spacing: 6px;
     color: black;
     z-index: 100;
-    margin-left: 16%;
   }
 
   &__h2 {
@@ -338,23 +331,17 @@ body {
     font-size: 2.5em;
     color: black;
     font-weight: 300;
-    width: 60%;
-    text-align: right;
     z-index: 100;
     margin-bottom: 2%;
-    margin-left: 21%;
   }
 
   &__p {
-    position: absolute;
     font-family: lato;
     font-weight: 300;
-    font-size: 1.5em;
+    font-size: 1.6em;
     color: black;
     text-align: right;
     z-index: 10;
-    width: 35%;
-    margin-left: 31%;
   }
 }
 
@@ -379,7 +366,10 @@ body {
   background-color: white;
   &__overlay {
     position: absolute;
+    height: 10%;
+    width: 100%;
     margin-left: 30%;
+    margin-top: 7%;
     mix-blend-mode: screen;
     filter: brightness(120%);
   }
@@ -388,25 +378,30 @@ body {
     color: black;
     font-size: 5em;
     z-index: 1000;
-    margin-top: 9%;
+    margin-top: 7%;
     text-align: center;
   }
+  &__mockup {
+    width: 15%;
+    position: absolute;
+    left: 42.5%;
+    filter: brightness(120%);
+  }
   &__leftInfo {
-    margin-top: 2%;
     position: absolute;
     float: left;
     background-color: rgba(190, 204, 169,0.3);
-    padding-top: 50px;
-    padding-bottom: 30px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
     color: black;
     width: 30%;
-    height: 45%;
     margin-left: 10%;
     overflow-y: hidden;
     &--p {
       font-weight: 300;
+      font-size: 1vw;
     }
     &--h3 {
       font-weight: 400;
@@ -419,13 +414,11 @@ body {
     background-color: rgba(190, 204, 169,0.3);
     padding: 30px;
     width: 30%;
-    height: 45%;
     margin-right: 10%;
-    margin-top: 2%;
-    padding-top: 50px;
-    padding-bottom: 70px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
     color: black;
 
     &--ul {
@@ -435,7 +428,7 @@ body {
       &__li {
         color: #0d4d01;
         font-weight: 400;
-        font-size: 1.2em;
+        font-size: 1vw;
       }
     }
   }
@@ -448,23 +441,14 @@ body {
     font-weight: 300;
     border: none;
     text-decoration: none;
-    display: inline-block;
     transition: background-color 1s;
     margin-left: 42.5%;
-    margin-top: 32%;
+    margin-top: 28%;
+    z-index: 999;
   }
   &__button2:hover {
     background-color: rgba(0, 88, 38,0.4);
   }
-}
-
-video {
-  width: 18%;
-  position: absolute;
-  top: 52%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  margin-top: -1%;
 }
 
 .header {
@@ -489,4 +473,20 @@ video {
 .menu__item:hover,
 .menu__item.menu__item--active {
   color: $light-green;
+}
+
+@media only screen and (max-width: 1100px) {
+  .mockup {
+    margin-top: 13%;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  #layer6 {
+    &__textContainer {
+      width: 70%;
+      margin-left: 55%;
+      margin-top: 15%;
+    }
+  }
 }
