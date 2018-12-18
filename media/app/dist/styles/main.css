@@ -1,0 +1,279 @@
+nav {
+  height: 150px;
+  padding-top: 10px;
+  width: 100%; }
+
+ul {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  text-align: center; }
+
+li {
+  min-width: 0; }
+
+.navbar-nav {
+  float: none; }
+
+.nav_text {
+  color: #5a5a5a;
+  font-size: 23px;
+  margin-top: 15%; }
+
+.nav_img {
+  min-width: 0; }
+
+#row_header {
+  background-color: #d9d9d9;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 10px; }
+
+.col-xs-6__h1 {
+  font-size: 6.5vw;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 45px;
+  margin-bottom: 7%; }
+
+.row.award_row {
+  margin-left: 8%;
+  margin-top: 6%; }
+
+.row.award_info {
+  text-align: center;
+  margin-bottom: 20%;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%; }
+
+.col-xs-12__lead {
+  font-size: 3vw;
+  font-weight: 300; }
+
+#container {
+  width: 300px;
+  height: 300px;
+  perspective: 800px; }
+
+#card {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: transform 1s; }
+
+#card:hover {
+  transform: rotateY(180deg); }
+
+.front, .back {
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  backface-visibility: hidden; }
+
+#front1 {
+  background: url("../images/award2_front.png"); }
+
+#back1 {
+  background: url("../images/award2.png");
+  transform: rotateY(180deg); }
+
+#front2 {
+  background: url("../images/award3_front.png"); }
+
+#back2 {
+  background: url("../images/award3.png");
+  transform: rotateY(180deg); }
+
+#front3 {
+  background: url("../images/award4_front.png"); }
+
+#back3 {
+  background: url("../images/award4.png");
+  transform: rotateY(180deg); }
+
+#front4 {
+  background: url("../images/award5_front.png"); }
+
+#back4 {
+  background: url("../images/award5.png");
+  transform: rotateY(180deg); }
+
+#challenge1, #challenge2, #challenge3 {
+  margin-top: 5%;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19); }
+
+#challenge1 {
+  background-image: url("../images/coffee_challenge.png");
+  background-size: 100%;
+  height: 30%;
+  padding-bottom: 29%; }
+
+#challenge2 {
+  height: 30%;
+  background-image: url("../images/bike_challenge2.png");
+  background-size: 100%; }
+
+#challenge3 {
+  background-image: url("../images/netflix_challenge3.png");
+  background-size: 100%;
+  height: 30%; }
+
+.limited_text, .challenge_text {
+  letter-spacing: 5px;
+  color: #3a3939; }
+
+.limited_text {
+  margin-top: 3%;
+  margin-left: 2%;
+  font-size: 2.5vw; }
+
+.challenge_text {
+  font-size: 3vw;
+  margin-left: 2%;
+  color: #5a5a5a; }
+
+.col-xs-12__h5 {
+  font-size: 30px;
+  margin-left: 2%;
+  color: #3a3939;
+  margin-top: 22%;
+  font-weight: bold;
+  letter-spacing: 7px; }
+
+.row.history_rows {
+  margin-left: 13%;
+  margin-bottom: 4%; }
+
+.lead.history_lead {
+  font-size: 2em;
+  text-align: center;
+  margin-left: -17%;
+  margin-bottom: 0%;
+  font-weight: 500; }
+
+.header_text {
+  font-size: 2.5em;
+  color: #5a5a5a; }
+
+#blue_arrow_icon_right {
+  transform: rotate(180deg); }
+
+.col-xs-1.history {
+  margin-top: 5%; }
+
+.tree {
+  margin-top: 6%;
+  margin-left: 17.5%;
+  margin-bottom: 24%; }
+
+.treeRed {
+  margin-top: 9%;
+  margin-left: 15.5%;
+  margin-bottom: 21.5%; }
+
+#bottom_bar {
+  background-color: #d9d9d9;
+  padding: 60px;
+  margin-bottom: 17%; }
+
+.row.settings_row {
+  background-color: rgba(205, 205, 205, 0.5);
+  font-size: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 4%;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19); }
+
+.row.settings_title_row {
+  margin-top: 10%;
+  font-size: 25px; }
+
+#title_share {
+  margin-top: 8%; }
+
+#motivation_text {
+  width: 70%;
+  text-align: center;
+  margin-left: 14%;
+  margin-top: 10%;
+  font-size: 30px;
+  line-height: 50px; }
+
+.motivation_tree {
+  margin-left: 20%;
+  margin-top: -25%; }
+
+body, html {
+  height: 100%; }
+
+body {
+  font-family: lato; }
+
+/* unvisited link */
+a:link {
+  color: #5a5a5a;
+  text-decoration: none; }
+
+/* visited link */
+a:visited {
+  text-decoration: none;
+  color: #5a5a5a; }
+
+/* mouse over link */
+a:hover {
+  text-decoration: none;
+  color: #898989; }
+
+/* selected link */
+a:active {
+  text-decoration: none;
+  color: #898989; }
+
+.container-fluid {
+  background-image: url("../images/bg2.png");
+  background-size: 100%;
+  height: 100%;
+  flex-direction: column;
+  align-content: space-between; }
+
+.main_content {
+  height: 90%; }
+
+.lead {
+  letter-spacing: 5px; }
+
+h1, h2, h3, h4 {
+  letter-spacing: 10px; }
+
+h2 {
+  font-size: 7vw;
+  text-align: center;
+  margin-top: 10%;
+  font-weight: 300; }
+
+.col-xs-12__h3 {
+  font-size: 7vw;
+  margin-top: 10%;
+  color: #5a5a5a; }
+
+h3 {
+  font-size: 40px;
+  text-align: center;
+  font-weight: 300;
+  color: #5a5a5a; }
+
+h4 {
+  font-size: 35px;
+  margin-bottom: 1.5%;
+  text-align: center; }
+
+.col-xs-12__h4 {
+  font-size: 4vw;
+  line-height: 6px;
+  color: #5a5a5a;
+  margin-top: 3.5%; }
