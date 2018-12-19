@@ -6,27 +6,37 @@
 }
 
 .lead.history_lead {
-  font-size: 2em;
+  font-size: 1em;
   text-align: center;
-  margin-left: -17%;
   margin-bottom: 0%;
   font-weight: 500;
 }
 
 .header_text {
-  font-size: 2.5em;
+  font-size: 1.3em;
   color: $dark_gray_text;
 }
 
+.header_text.jan {
+  margin-left: -50%;
+}
 
 #blue_arrow_icon_right {
   transform: rotate(180deg);
+  width: 1100%;
+  margin-top: -200%;
 }
 
 #blue_arrow_icon_left {
+  width: 1100%;
+  margin-top: -200%;
 }
 
 
 .col-xs-1.history {
   margin-top: 5%;
+}
+
+.randomTree {
+  margin-left: -30%;
 }

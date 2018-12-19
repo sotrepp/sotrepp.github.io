@@ -8,20 +8,25 @@
 #challenge1 {
   background-image: url("../images/coffee_challenge.png");
   background-size: 100%;
+  background-repeat: no-repeat;
   height: 30%;
-  padding-bottom: 29%;
+  padding-bottom: 23%;
 }
 
 #challenge2 {
   height: 30%;
   background-image: url("../images/bike_challenge2.png");
-  background-size: 100%;
+  background-size: 120%;
+  background-repeat: no-repeat;
+
 }
 
 #challenge3 {
   background-image: url("../images/netflix_challenge3.png");
-  background-size: 100%;
+  background-size: 120%;
   height: 30%;
+  background-repeat: no-repeat;
+
 }
 
 .limited_text, .challenge_text {
@@ -36,16 +41,16 @@
 }
 
 .challenge_text {
-  font-size: 3vw;
+  font-size: 2.5vw;
   margin-left: 2%;
   color: $dark-gray-text;
 }
 
 .col-xs-12__h5 {
-  font-size: 30px;
+  font-size: 3vw;
   margin-left: 2%;
   color: $dark-gray;
-  margin-top: 22%;
+  margin-top: 20%;
   font-weight: bold;
   letter-spacing: 7px;
 }

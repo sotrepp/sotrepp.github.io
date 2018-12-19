@@ -234,8 +234,8 @@
 		"oA": 0,
 		"oAP": "/dist/images/bike_challenge2.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -256,8 +256,8 @@
 		"oA": 0,
 		"oAP": "/dist/images/coffee_challenge.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -421,8 +421,8 @@
 		"oA": 0,
 		"oAP": "/dist/images/netflix_challenge3.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},

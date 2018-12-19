@@ -57,9 +57,9 @@ li {
   font-weight: 300; }
 
 #container {
-  width: 300px;
-  height: 300px;
-  perspective: 800px; }
+  width: 100px;
+  height: 100px;
+  perspective: 600px; }
 
 #card {
   width: 100%;
@@ -79,32 +79,40 @@ li {
   backface-visibility: hidden; }
 
 #front1 {
-  background: url("../images/award2_front.png"); }
+  background: url("../images/award2_front.png");
+  background-size: 100%; }
 
 #back1 {
   background: url("../images/award2.png");
-  transform: rotateY(180deg); }
+  transform: rotateY(180deg);
+  background-size: 100%; }
 
 #front2 {
-  background: url("../images/award3_front.png"); }
+  background: url("../images/award3_front.png");
+  background-size: 100%; }
 
 #back2 {
   background: url("../images/award3.png");
+  background-size: 100%;
   transform: rotateY(180deg); }
 
 #front3 {
-  background: url("../images/award4_front.png"); }
+  background: url("../images/award4_front.png");
+  background-size: 100%; }
 
 #back3 {
   background: url("../images/award4.png");
+  background-size: 100%;
   transform: rotateY(180deg); }
 
 #front4 {
-  background: url("../images/award5_front.png"); }
+  background: url("../images/award5_front.png");
+  background-size: 100%; }
 
 #back4 {
   background: url("../images/award5.png");
-  transform: rotateY(180deg); }
+  transform: rotateY(180deg);
+  background-size: 100%; }
 
 #challenge1, #challenge2, #challenge3 {
   margin-top: 5%;
@@ -113,18 +121,21 @@ li {
 #challenge1 {
   background-image: url("../images/coffee_challenge.png");
   background-size: 100%;
+  background-repeat: no-repeat;
   height: 30%;
-  padding-bottom: 29%; }
+  padding-bottom: 23%; }
 
 #challenge2 {
   height: 30%;
   background-image: url("../images/bike_challenge2.png");
-  background-size: 100%; }
+  background-size: 120%;
+  background-repeat: no-repeat; }
 
 #challenge3 {
   background-image: url("../images/netflix_challenge3.png");
-  background-size: 100%;
-  height: 30%; }
+  background-size: 120%;
+  height: 30%;
+  background-repeat: no-repeat; }
 
 .limited_text, .challenge_text {
   letter-spacing: 5px;
@@ -136,15 +147,15 @@ li {
   font-size: 2.5vw; }
 
 .challenge_text {
-  font-size: 3vw;
+  font-size: 2.5vw;
   margin-left: 2%;
   color: #5a5a5a; }
 
 .col-xs-12__h5 {
-  font-size: 30px;
+  font-size: 3vw;
   margin-left: 2%;
   color: #3a3939;
-  margin-top: 22%;
+  margin-top: 20%;
   font-weight: bold;
   letter-spacing: 7px; }
 
@@ -153,21 +164,32 @@ li {
   margin-bottom: 4%; }
 
 .lead.history_lead {
-  font-size: 2em;
+  font-size: 1em;
   text-align: center;
-  margin-left: -17%;
   margin-bottom: 0%;
   font-weight: 500; }
 
 .header_text {
-  font-size: 2.5em;
+  font-size: 1.3em;
   color: #5a5a5a; }
 
+.header_text.jan {
+  margin-left: -50%; }
+
 #blue_arrow_icon_right {
-  transform: rotate(180deg); }
+  transform: rotate(180deg);
+  width: 1100%;
+  margin-top: -200%; }
+
+#blue_arrow_icon_left {
+  width: 1100%;
+  margin-top: -200%; }
 
 .col-xs-1.history {
   margin-top: 5%; }
+
+.randomTree {
+  margin-left: -30%; }
 
 .tree {
   margin-top: 15%;
@@ -186,15 +208,25 @@ li {
 
 .row.settings_row {
   background-color: rgba(205, 205, 205, 0.5);
-  font-size: 20px;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  font-size: 2vw;
+  padding-bottom: 4%;
+  padding-bottom: 4%;
   margin-bottom: 4%;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19); }
 
 .row.settings_title_row {
   margin-top: 10%;
-  font-size: 25px; }
+  font-size: 3vw; }
+
+.col-xs-1.settings {
+  padding: 0; }
+
+.img-fluid.settings {
+  margin-top: 50%;
+  margin-left: 40%; }
+
+.settings_text {
+  margin-top: 9%; }
 
 #title_share {
   margin-top: 8%; }
@@ -203,9 +235,9 @@ li {
   width: 70%;
   text-align: center;
   margin-left: 14%;
-  margin-top: 10%;
-  font-size: 30px;
-  line-height: 50px; }
+  margin-top: 6%;
+  font-size: 3vw;
+  line-height: 4.5vw; }
 
 .motivation_tree {
   margin-left: 20%;
@@ -265,9 +297,9 @@ h2 {
   color: #5a5a5a; }
 
 h3 {
-  font-size: 40px;
+  font-size: 3vw;
   text-align: center;
-  font-weight: 300;
+  font-weight: 500;
   color: #5a5a5a; }
 
 h4 {

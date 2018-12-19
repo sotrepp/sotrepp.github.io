@@ -2,14 +2,27 @@
 
 .row.settings_row {
   background-color: $transparent_light-gray;
-  font-size: 20px;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  font-size: 2vw;
+  padding-bottom: 4%;
+  padding-bottom: 4%;
   margin-bottom: 4%;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
 }
 
 .row.settings_title_row {
   margin-top: 10%;
-  font-size: 25px;
+  font-size: 3vw;
+}
+
+.col-xs-1.settings {
+  padding: 0;
+}
+
+.img-fluid.settings {
+  margin-top: 50%;
+  margin-left: 40%;
+}
+
+.settings_text {
+  margin-top: 9%;
 }
