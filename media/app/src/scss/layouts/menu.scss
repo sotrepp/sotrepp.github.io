@@ -1,13 +1,12 @@
 // layouts for the menu in the iCarbon app
 
 nav {
-height: 150px;
-padding-top: 10px;
+height: 12%;
 width:100%;
 }
 
 ul {
-  display:flex;
+  display: flex;
   flex-direction: row;
   align-items: flex-start;
   flex-wrap: nowrap;
@@ -25,10 +24,16 @@ li {
 
 .nav_text {
   color: $dark_gray_text;
-  font-size: 23px;
+  font-size: 2.5vw;
+  margin-top: 15%;
+}
+
+.nav_text_challenges {
+  font-size: 2.5vw;
   margin-top: 15%;
 }
 
 .nav_img {
   min-width: 0;
+  width: 70%;
 }

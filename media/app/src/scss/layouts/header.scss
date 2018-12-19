@@ -2,17 +2,16 @@
 
 #row_header {
   background-color: $extra_light-gray;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-right: 10px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-right: 1%;
 }
 
 .col-xs-6 {
   &__h1 {
-    font-size: 6.5vw;
+    font-size: 5vw;
     font-weight: 300;
     text-align: center;
-    margin-top: 45px;
     margin-bottom: 7%;
   }
 }
