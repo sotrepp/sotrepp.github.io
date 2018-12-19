@@ -349,6 +349,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/dist/images/jan_icon.png": {
+		"ft": 32768,
+		"iS": 1360,
+		"oA": 0,
+		"oAP": "/dist/images/jan_icon.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/dist/images/location_icon.png": {
 		"ft": 32768,
 		"iS": 597,
@@ -420,6 +431,17 @@
 		"iS": 86287,
 		"oA": 0,
 		"oAP": "/dist/images/netflix_challenge3.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/dist/images/nov_icon.png": {
+		"ft": 32768,
+		"iS": 1623,
+		"oA": 0,
+		"oAP": "/dist/images/nov_icon.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
