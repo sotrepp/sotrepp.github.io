@@ -398,12 +398,12 @@ textarea:hover {
 
 
 #leftNav {
-  width: 400px;
+  width: 30%;
   border-top: 1px;
   border-style: solid;
   position: fixed;
   z-index: 999;
-  margin-top: 32%;
+  margin-top: 28%;
   margin-left: -140px;
   color: rgba(125, 125,125, 0.5);
   transform: rotateZ(90deg);
@@ -467,7 +467,6 @@ textarea:hover {
   background-image: url("../media/bg_dark2.png");
   background-size: 100%;
   margin-bottom: 0;
-	filter: brightness(210%);
 }
 
 
@@ -499,7 +498,6 @@ textarea:hover {
   height: 100%;
   z-index: -20;
   background-color: black;
-	/*filter: brightness(210%);*/
 }
 
 #contact {
